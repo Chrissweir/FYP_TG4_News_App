@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-HPGSBAB</Machine>
+    <WindowsUser>chris</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d2c00440-dfa7-11e5-bbb3-1143566b520f</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\chris\Desktop\TG4\TG4\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>BBDCB44D5726BA001756BB1A425479FC1168AA746AEF7DD7E5660EADE9F2EE18</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myappc2f411_1.0.1.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myappc2f411_h35559jr9hy9m!io.cordova.myappc2f411</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myappc2f411</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:11.701</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2016-04-24T13:58:08.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-04-24T13:58:08.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-24T13:58:08.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\images\Facebook.png">
+      <PackagePath>www\images\Facebook.png</PackagePath>
+      <Modified>2016-04-24T13:58:06.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\images\Flickr.png">
+      <PackagePath>www\images\Flickr.png</PackagePath>
+      <Modified>2016-04-24T13:58:06.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\images\TG4.png">
+      <PackagePath>www\images\TG4.png</PackagePath>
+      <Modified>2016-04-24T13:58:06.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\images\Twitter.png">
+      <PackagePath>www\images\Twitter.png</PackagePath>
+      <Modified>2016-04-24T13:58:06.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\images\YouTube.png">
+      <PackagePath>www\images\YouTube.png</PackagePath>
+      <Modified>2016-04-24T13:58:06.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-04-24T13:58:06.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-device-motion\src\windows\AccelerometerProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\src\windows\AccelerometerProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-device-motion\www\Acceleration.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\www\Acceleration.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-device-motion\www\accelerometer.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\www\accelerometer.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\src\windows\FileProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file\src\windows\FileProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\browser\isChrome.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\browser\isChrome.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryEntry.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryReader.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\Entry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Entry.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\File.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\File.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileEntry.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileError.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileError.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileReader.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileSystem.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystemPaths.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystemPaths.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystems.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystems.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadOptions.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadResult.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadResult.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\FileWriter.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileWriter.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\Flags.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Flags.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\LocalFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\LocalFileSystem.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\Metadata.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Metadata.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\ProgressEvent.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\ProgressEvent.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\requestFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\requestFileSystem.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-media\src\windows\MediaProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-media\src\windows\MediaProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-media\www\Media.js">
+      <PackagePath>www\plugins\cordova-plugin-media\www\Media.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-media\www\MediaError.js">
+      <PackagePath>www\plugins\cordova-plugin-media\www\MediaError.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-network-information\www\Connection.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\Connection.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-network-information\www\network.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\network.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-vibration\src\windows\VibrationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-vibration\src\windows\VibrationProxy.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\plugins\cordova-plugin-vibration\www\vibration.js">
+      <PackagePath>www\plugins\cordova-plugin-vibration\www\vibration.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\scripts\getRSS.js">
+      <PackagePath>www\scripts\getRSS.js</PackagePath>
+      <Modified>2016-04-24T13:58:06.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2016-04-24T13:58:06.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\scripts\jquery-2.2.1.min.js">
+      <PackagePath>www\scripts\jquery-2.2.1.min.js</PackagePath>
+      <Modified>2016-04-24T13:58:08.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2016-04-24T13:58:06.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2016-04-24T13:58:06.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-04-24T13:58:07.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+      <Modified>2016-04-24T13:58:06.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2016-04-24T13:58:06.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-04-24T13:58:06.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-04-24T13:58:10.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Desktop\TG4\TG4\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-24T13:58:11.305</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

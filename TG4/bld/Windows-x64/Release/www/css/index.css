@@ -1,0 +1,132 @@
+﻿/* ==========================================================================
+   Page elements
+   ========================================================================== */
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*  ==========================================================================
+    Main header elements
+    ========================================================================== */
+/* Make Header Sticky */
+#header_container {
+    background-color: #6f8fa4;
+    border: 1px solid #666;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#header {
+    display: block;
+    line-height: 60px;
+    margin: 0 auto;
+    width: 940px;
+    text-align: center;
+    height: 60px;
+}
+
+#logo {
+    display: block;
+    height: auto;
+    margin: 19px;
+    width: 64px;
+}
+
+/* ==========================================================================
+   Language selector
+   ========================================================================== */
+#languages {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+/*==========================================================================
+ Section headers 
+========================================================================== */
+#section-header {
+    padding: 60px 0 0 0;
+    height: 70px;
+    background-color: #3e8eb4;
+    margin-top: 0px;
+}
+
+#section-title {
+    text-align: center;
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: white;
+    padding: 5px 0px;
+    margin: 0 20px 0 0;
+}
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+#container {
+    padding: 15px 15px 60px 15px;
+}
+
+#content {
+    background-color: #d7e2ea;
+    width: auto;
+    max-width: 1214px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding:0px 15px 0px 15px;
+    font-family: "tg4regular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+#border {
+    margin:0px -20px 0px -20px;
+    border-bottom: medium solid white;
+}
+
+#image {
+    display: block;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* Make Footer Sticky */
+#footer_container {
+    background-color: #6f8fa4;
+    border: 1px solid #666;
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#footer {
+    line-height: 60px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+}
+
+#footer img{
+    height:11%;
+    width:11%;
+    padding:1px 5%;
+    vertical-align:middle;
+}
+
+
+

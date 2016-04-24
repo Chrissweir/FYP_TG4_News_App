@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+    Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+    For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src * ">-->
+    <title>TG4</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <!-- StyleSheet -->
+    <link href="css/index.css" rel="stylesheet" />
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            // jQuery is properly loaded at this point
+            // so proceed to bind the Cordova's deviceready event
+            $(document).bind("deviceready", function () {
+                // Now Cordova is loaded
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <main>
+        <div id="header_container">
+            <div id="header">
+                <a href="http://www.tg4.ie/en/news/"><img src="images/TG4.png" alt="TG4 Logo" id="logo"></a>
+                <div id="languages">
+                    <select id="languageSelect">
+                        <option value="Gaeilge">Gaeilge</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="section-header">
+            <h1 id="section-title" >Loading...</h1>
+        </div>
+        <div id="container">
+            <div id="content">
+                <br />
+                <div id="rssOutput">Loading...</div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer_container">
+        <div id="footer">
+            <a href="https://www.facebook.com/TG4TV"> <img src="images/Facebook.png" alt="Facebook" class="social"></a>
+            <a href="https://twitter.com/TG4TV"> <img src="images/Twitter.png" alt="Twitter" class="social"></a>
+            <a href="https://www.youtube.com/user/TG4"> <img src="images/YouTube.png" alt="YouTube" class="social"></a>
+            <a href="https://www.flickr.com/photos/tg4"> <img src="images/Flickr.png" alt="Flickr" class="social"></a>
+        </div>
+    </div>
+</body>
+</html>
