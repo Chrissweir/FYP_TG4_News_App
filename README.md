@@ -13,6 +13,7 @@ For my project I chose to do a Cross-Platform news app that was requested by TG4
 
 #### Architecture of the solution
 I am using Apache Cordova to create this project as the client requested that the app must be cross-platform and must be presented in a manner befitting the native devices. Cordova comprises of HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platforms' native development language. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's sensors, data, and network status, etc. There are several components to a Cordova application. The following diagram shows a high-level view of the Cordova application architecture. 
+![Image1](https://cloud.githubusercontent.com/assets/10316226/18791236/6780ce2a-81a1-11e6-828b-755fa1634d3d.png)
  
 I had many other choices of technologies that I could have used such as PhoneGap and Ionic Framework as they are all Hybrid Cross-Platform development frameworks. However, I chose Cordova as I have previously worked with Ionic Framework (which uses Cordova as backend) and I wanted to try something else. Adobe PhoneGap is a distribution of Apache Cordova that additionally provides integration with Adobe’s utilities and services. I had no plans to use Adobe’s services so I decided not to use PhoneGap.
 
@@ -28,7 +29,7 @@ The StyleSheet.css contains all the styling for the html page. I designed the he
 
 The index.js JavaScript file contains the functions to choose what language is to be used and the function to retrieve the corresponding RSS feed. Both these functions are created using jQuery. This makes the JavaScript code much shorter and simpler. The RSS feed fetch() function retrieves the feed and appends its content back to the HTML <div/>. Each item in the RSS feed is appended with and id and with the appropriate HTML tags. The id is used to link these items to its corresponding CSS style.
 
-
+![Image2](https://cloud.githubusercontent.com/assets/10316226/18791250/7a4e9906-81a1-11e6-84de-91fcbda5b20d.png)
 #### Technologies used
 The client requirements stated that this app must be a cross-platform app, therefor I decided to use Apache Cordova as it is an open-source mobile development framework. It allows you to use standard web technologies such as HTML5, CSS3, and JavaScript for cross-platform development, avoiding each mobile platforms' native development language. When deciding upon my project I always had the idea of further developing my skills with HTML, CSS and JavaScript, and for me Apache Cordova fitted in perfectly to help me improve my knowledge of these languages. 
 
